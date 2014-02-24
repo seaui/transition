@@ -1,0 +1,30 @@
+{
+  "family": "seaui",
+  "name": "transition",
+  "version": "1.0.0",
+  "description": "Transition.js是针对 transitionEnd事件的一个基本助手工具，也是对CSS过渡效果的模拟。它被其它插件用来检测当前浏览器对CSS过渡效果是否支持。",
+  "homepage": "https://github.com/seaui/transition",
+  "author": "chanh",
+  "maintainers": [
+    "chanh"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/seaui/transition.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "output": [
+      "transition.js"
+    ],
+    "alias": {
+        "$": "jquery/jquery/1.10.1/jquery"
+    },
+    "devAlias": {},
+    "engines": {}
+  }
+}
