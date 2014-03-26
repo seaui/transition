@@ -13,7 +13,9 @@ Transition.js是针对 transitionEnd事件的一个基本助手工具，也是�
 ## 使用说明
 
 ```javascript
-$.support.transition &&  $element
+seajs.use(['$', 'transition'], function($) {
+    $.support.transition &&  $element
         .one($.support.transition.end, callback)
         .emulateTransitionEnd(duration);
+});
 ```

@@ -6,7 +6,7 @@ define(function(require, exports, module) {
     // ============================================================
 
     function transitionEnd() {
-        var el = document.createElement('bootstrap')
+        var el = document.createElement('seaui')
 
         var transEndEventNames = {
             'WebkitTransition' : 'webkitTransitionEnd',
