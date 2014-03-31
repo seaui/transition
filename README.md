@@ -2,6 +2,8 @@
 
 ---
 
+[![Build Status](https://travis-ci.org/seaui/transition.svg?branch=master)](https://travis-ci.org/seaui/transition)
+
 Transition.js是针对 transitionEnd事件的一个基本助手工具，也是对CSS过渡效果的模拟。它被其它插件用来检测当前浏览器对CSS过渡效果是否支持。
 
 ---
